@@ -1,4 +1,4 @@
-# terraform-aws-rails-counter
+# module rails_counter
 
 # Instructions
 - your terraform version should be 0.12.x
@@ -28,3 +28,4 @@
   terraform plan
   terraform apply
   ```
+
