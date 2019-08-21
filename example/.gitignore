@@ -1,2 +1,8 @@
 .terraform/
 terraform.tfstate*
+.bundle/
+.kitchen/
+Gemfile.lock
+terraform.tfvars
+vendor/
+

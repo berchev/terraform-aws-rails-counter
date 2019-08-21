@@ -28,3 +28,15 @@
   terraform plan
   terraform apply
   ```
+- after terraform finish output will be similar to this one:
+  ```
+  Outputs:
+
+  ip_address = 54.89.205.178
+  server_name = ec2-54-89-205-178.compute-1.amazonaws.com
+  ```
+- open new browser and type resulted **server_name:3000**
+  ```
+  ec2-54-89-205-178.compute-1.amazonaws.com:3000
+  ```
+- play with the counter
