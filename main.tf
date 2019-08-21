@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 data "template_file" "provision_script" {
-  template = file("${path.root}/provision.sh")
+  template = file("${path.module}/provision.sh")
 
   vars = {
     port     = var.portainer_port
