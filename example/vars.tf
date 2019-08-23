@@ -30,7 +30,7 @@ variable "portainer_port" {
 
 variable "rails_counter" {
   description = "Docker image for rails counter"
-  default     = "berchev/counter:0.0.6"
+  default     = "berchev/counter:0.0.7"
 }
 
 variable "redis_image" {
